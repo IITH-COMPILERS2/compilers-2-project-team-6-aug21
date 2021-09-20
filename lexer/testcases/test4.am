@@ -1,0 +1,22 @@
+int DFA main ()
+{
+    int n ;
+    n = int(input())`` //input for n is taken using input()
+    
+    Start
+    {
+    	$ -> A;     //A is taken as the starting stage
+    }
+    
+    A
+    {
+    	(n>0 && n-- && print("Hello World")) -> A;
+    	(n <= 0) @ Exit; 
+    }
+    
+    Exit
+    {
+    	return 0;
+    }
+}
+

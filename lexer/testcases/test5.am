@@ -1,0 +1,26 @@
+int DFA main() 
+{
+	int a,b,c;
+	a = int(input());
+	b = int(input());
+	Start
+	{
+		(a >= b) -> Printx;
+		$ @ Printy;
+	}
+	Printx
+	{
+		print("a is greater than or equal to b");
+		$ -> Exit;
+	}
+	Printy
+	{
+		print("b is greater than a");
+		$ -> Exit`
+	}
+	Exit
+	{
+		return 0;
+	}
+}
+

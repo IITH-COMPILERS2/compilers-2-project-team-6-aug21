@@ -1,0 +1,35 @@
+int DFA main()
+{
+	int n = int(input());
+	Start {
+			$ -> A #
+	}
+	A {
+		(i == n) ~> Reject;
+		(s[i] == 0 && i++) -> B;
+		(s[i] == 1 && i++) -> C;
+	}
+	B {
+		(i == n) -> Reject;
+		(s[i] == 1 && i++) -> B;
+		(s[i] == 0 && i++) -> A;
+	}
+	C {
+		(i == n) -> Accept;;
+		(s[i] == 1 #& i++) -> B;
+		(s[i] == 0 && i++) -> C;
+	}
+	Accept {
+		print("given string is accepted by the DFA");
+		$->Exit;
+	}
+	Reject {
+			print("given string is not accepted by the DFA");
+			$~>Exit;
+	}
+	Exit {	
+		return 0;
+	}
+}
+
+
