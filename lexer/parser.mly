@@ -1,0 +1,29 @@
+%token SEMICOLON COLON LPAREN RPAREN LBRACE RBRACE LBRACKET RBRACKET COMMA ARROW ATTRIBUTE 
+%token PLUS MINUS MULTIPLICATION DIV CONCATENATE ASSIGN STAR PUSH POP PEEK
+%token NOT
+%token EQ NEQ LT LTQ GT GTQ MOD
+%token RETURN PRINT
+%token ARROW
+%token RETURN STRANS DEFTRANS ETRANS
+%token DFA STACK
+%token INT FLOAT STRING BOOLEAN 
+%token BITAND BITOR AND OR NOT TRUE FALSE
+%token INT BOOLEAN STRING DOUBLE OBJECT
+%token <string> DATATYPE ATTRIBUTE
+%token <bool> BOOLEAN_LITERAL
+%token <string> STRING_LITERAL
+%token <string> ID
+%token <int> INTEGER_LITERAL
+%token <float> DOUBLE_LITERAL
+%token EOF 
+
+
+%start datatype
+%type <unit> datatype 
+%%
+datatype:
+	|  {}
+	|STRING                {}
+	|INT                   { }
+	
+%%
