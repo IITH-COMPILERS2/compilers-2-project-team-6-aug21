@@ -1,0 +1,12 @@
+void DFA main()	
+{
+	Start	
+	{
+		print("Hurray!!!, it's working");
+		$ -> Exit;
+	}
+	Exit
+	{
+		return 0;
+	}
+}

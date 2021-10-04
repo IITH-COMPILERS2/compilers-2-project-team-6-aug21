@@ -1,0 +1,18 @@
+int DFA main() 
+{
+int a = 2;
+       Start 
+       {
+		(a > 1) -> Exit;     //If a value is greater than 1 then the state exits
+		$ -> A;
+       }
+       A
+       {
+       	print("a is less than 1");
+       	$ -> Exit;    //if a is less than 1 it prints a is less than 1 & exits
+       }
+	Exit 
+	{
+	 	return 0;
+	}
+}
