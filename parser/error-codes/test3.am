@@ -1,0 +1,26 @@
+// Basic stack operations
+
+int DFA main()	
+{
+	Start	
+	{
+		stack<float> st;
+		s.push(10.0);
+		s.push(3.5);
+		s.push(25.5);
+		s.pop();
+		s.push(0.0);
+		print(s.peek()); // 0.0
+		s.push(5.0);
+		print(s.pop());  // 5.0
+
+		EOS == s.peek() -> end;
+    	        $ -> Start;
+		print("FAIL");
+	}
+
+	End {
+		print("STACK WORKING SUCCESSFULLY!!");
+		return 0;
+	}
+}
