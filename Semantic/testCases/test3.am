@@ -1,0 +1,25 @@
+int DFA main ()
+{
+    int n = 5; //input for n is taken using input()
+    
+    Start
+    {
+    	$ -> A;     //A is taken as the starting stage
+    }
+    
+    A
+    {
+    	(n>0)-> B;
+    	(n <= 0) -> Exit; 
+    }
+    B 
+    {
+    	n = n-1;
+    	print("Hello World");
+    	$->A;
+    }
+    Exit
+    {
+    	return 0;
+    }
+}

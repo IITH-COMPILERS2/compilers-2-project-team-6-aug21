@@ -1,0 +1,12 @@
+void DFA main()	
+{
+	Star	
+	{
+		printf("Hurray!!!, it's working");
+		$ -> Exit;
+	}
+	Exit
+	{
+		return 0;
+	}
+}
