@@ -1,0 +1,22 @@
+void DFA main()	
+{
+	Start	
+	{
+		int a = 10;
+		int b = 5;
+		a = a + 1;
+		Printx <- (a >= b); 
+		Printy <- $;
+	}
+	Printx
+	{
+		print("a is greater than or equal to b");
+		return;
+	}
+	Printy 
+	{
+		print("a  is less than b");
+		return;
+	}
+	
+}

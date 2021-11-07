@@ -1,0 +1,10 @@
+void DFA main() 
+{
+    Start 
+    {
+        print("Hello world!");
+        int num = input();
+        print("Hello world! " + num);
+        return 0;               //error(wrong return type)
+    }
+}
