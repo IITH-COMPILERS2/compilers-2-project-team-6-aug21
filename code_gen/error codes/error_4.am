@@ -1,0 +1,25 @@
+void DFA main()	
+{
+	State_1	 //error - first transition must be Start state
+	{
+		stack<float> s;
+		s.push(10.0);
+		s.push(3.5);
+		float a = s.peek();
+		State_2 <- (a > 0); 
+		End <- $;
+	}
+	State_2
+	{
+		print("peek value is positive");
+		return;
+	}
+	End 
+	{
+		print("peek value is negative");
+		return;
+	}
+	
+}
+
+

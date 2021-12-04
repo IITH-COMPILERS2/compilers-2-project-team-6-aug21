@@ -1,0 +1,20 @@
+void DFA main()	
+{
+	int a = 1;
+	Start	
+	{
+		Bool_one <- (c > 0);  //error(c not defined)
+		Bool_two <- $;
+	}
+
+	Bool_one 
+	{
+		Bool_two <- $;
+	}
+	
+	Bool_two 
+	{
+		print("Second");
+		return;
+	}
+}

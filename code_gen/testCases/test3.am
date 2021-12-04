@@ -1,0 +1,45 @@
+// functions - add, sub, mul
+
+int DFA fun_add(int a, int b) 
+{
+	Start 
+	{
+		return a + b;
+	}
+}
+
+int DFA fun_sub(int a, int b) 
+{
+	Start 
+	{
+		return a - b;
+	}
+}
+
+int DFA fun_mul(int a, int b) 
+{
+	Start 
+	{
+		return a * b;
+	}
+}
+
+void DFA main()	
+{
+	Start	
+	{
+		int a ;
+		a = fun_add(1,2);
+		print(a);
+		
+		int b;
+		b = fun_sub(1, 2);
+		print(b);
+		
+		int c;
+		c = fun_mul(1, 2);
+		print(c);
+		
+		return 0;
+	}
+}
