@@ -18,8 +18,6 @@ We have written our Project in [Ocaml](https://ocaml.org/) hence the user needs 
 
 2. ```$ ./automaton {output name}<input_file>```  
 
-3. ```$ python {output name}.py {args}```
-
   
 ## Team Members  
 
@@ -31,6 +29,6 @@ We have written our Project in [Ocaml](https://ocaml.org/) hence the user needs 
 
 4. [Nalari Sushma](https://github.com/Sushma1111)  
 
-5. [K Sravya](https://github.com/sravya2707)
+5. [K Lakshmi Sravya](https://github.com/sravya2707)
 
 6. [K sri Teja](https://github.com/Sriteja14)
