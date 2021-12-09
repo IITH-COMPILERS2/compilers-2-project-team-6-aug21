@@ -27,7 +27,7 @@ We have written our Project in [Ocaml](https://ocaml.org/) hence the user needs 
 
 2. [Veeramalli Sathwik](https://github.com/sathwik22)  
 
-3. [Harsha Vardhan](https://github.com/akashtadwai)  
+3. [Harsha Vardhan](https://github.com/har2001)  
 
 4. [Nalari Sushma](https://github.com/Sushma1111)  
 
