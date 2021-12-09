@@ -10,13 +10,15 @@ We have written our Project in [Ocaml](https://ocaml.org/) hence the user needs 
  To install [Ocaml] and all the dependencies of python we used for the project the installations required are :-
 
 * ```$ sudo apt install ocaml```
-* ```$ sudo apt install python```  
+
 
 ## Instructions to Compile and Run
 
 1. ```$ make```  
 
 2. ```$ ./automaton {output name}<input_file>```  
+
+3. ```$ python {output name}.py {args}```
 
   
 ## Team Members  
